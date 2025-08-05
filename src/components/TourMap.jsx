@@ -3,7 +3,7 @@ import { useInView } from "react-intersection-observer";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
+mapboxgl.accessToken = pk.eyJ1IjoieWVsaXphdmV0YW5hZGllaWV2YSIsImEiOiJjbWQ1dmdyNnMwMnBuMmxxeG5kN3k2b3YxIn0.Se_7M_UHaXoxMgfvYqRYWQ;
 
 export default function TourMap() {
   const mapContainer = useRef(null);
