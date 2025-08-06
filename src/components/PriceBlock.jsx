@@ -24,10 +24,10 @@ export default function PriceBlock() {
   return (
     <section
       ref={sectionRef}
-      className="bg-sand py-20 px-6 md:px-20 text-[#533d2e]"
+      className="bg-sand  py-4 md:py-20 px-6 md:px-20 text-[#533d2e]"
     >
       {/* Title */}
-      <h2 className="text-4xl md:text-5xl font-cormorant font-bold uppercase tracking-widest text-center mb-12">
+      <h2 className="text-4xl md:text-5xl font-cormorant py-2 font-bold uppercase tracking-widest text-center md:mb-12">
         {price.title}
       </h2>
 
